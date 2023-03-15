@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "install libpcap dev",
+      "setup": "sudo apt install libpcap-dev",
+      "run": "sudo apt install libpcap-dev",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "install Cython",
+      "setup": "sudo pip3 install Cython",
+      "run": "sudo pip3 install Cython",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "install python libpcap pytest",
+      "setup": "sudo pip3 install python-libpcap pytest",
+      "run": "sudo pip3 install python-libpcap pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "one",
+      "setup": "",
+      "run": "pytest check.py::test_one",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "two",
+      "setup": "",
+      "run": "pytest check.py::test_two",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "three",
+      "setup": "",
+      "run": "pytest check.py::test_three",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
