@@ -97,7 +97,7 @@ class packetCapture():
         dec_port  = tcp[1]
         seq_num   = tcp[2]
         ack_num   = tcp[3]
-        checksum  = tcp[7]
+        checksum  = tcp[6]
 
 
         ## 작성 필요 ##
